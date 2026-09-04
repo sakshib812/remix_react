@@ -8,6 +8,12 @@
     "**/.client/**/*.tsx"
   ],
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@secureshield/web": [
+        "secureshield-sdk"
+      ]
+    },
     "lib": [
       "DOM",
       "DOM.Iterable",
